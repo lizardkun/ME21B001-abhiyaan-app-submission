@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="beginner_tutorials" type="faxer.py" name="faxer" output="screen"></node>
+    <node pkg="beginner_tutorials" type="printer1.py" name="printer" output="screen"></node>
+
+</launch>
