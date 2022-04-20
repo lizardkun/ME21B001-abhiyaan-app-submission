@@ -1,6 +1,0 @@
-<launch>
-    <node pkg="beginner_tutorials" type="faxer.py" name="faxer" output="screen"></node>
-    <node pkg="beginner_tutorials" type="printer1.py" name="printer" output="screen"></node>
-    <node pkg="beginner_tutorials" type="reverse.py" name="reverse" output="screen"></node>
-
-</launch>
