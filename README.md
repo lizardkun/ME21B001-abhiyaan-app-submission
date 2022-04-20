@@ -21,6 +21,9 @@ What I've learned from the apps is that software projects take a lot of patience
 Did i attempt the bonus questions?:
 1.yes
 
+My attempts:
+OpenCV:Using blob detection libraries was my first choice, since masking also detects road lines,but every time i ran a blob detector i kept getting a segmentation error,('Segmentation fault (core dumped)' in particular). Also i tried a more complex masking method that almost wiped out everything except the white potholes, my idea was so save this as a video (i.e "masked.avi") then use a contour based object detector on this new video, but for somre reason i couldnt get it to work)
+
 
 
 
