@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+#programme that tells you want not to hit into
 
 cap = cv2.VideoCapture('/home/aahana/Desktop/openCV/virat_test_pothole.mp4')#please change this to the absolute path of the video in your system, 'pothole.mp4' alone doesnt work
 frame_width = int( cap.get(cv2.CAP_PROP_FRAME_WIDTH))
